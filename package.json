@@ -1,0 +1,21 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "A Simple Chat App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bolorunduro Valiant-Joshua",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
